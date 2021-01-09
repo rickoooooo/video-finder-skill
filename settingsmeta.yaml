@@ -1,0 +1,43 @@
+
+skillMetadata:
+  sections:
+    - name: Rapid API
+      fields:
+        - name: x-rapidapi-key
+          type: text
+          label: Rapid API key
+          value: ""
+        - name: utellyHost
+          type: text
+          label: Utelly host from Rapid API
+          value: "utelly-tv-shows-and-movies-availability-v1.p.rapidapi.com"
+        - name: imdbHost
+          type: text
+          label: IMDB host from Rapid API
+          value: "imdb8.p.rapidapi.com"
+        - name: country
+          type: text
+          label: Country code for video searches (must match Utelly options from Rapid API)
+          value: ""
+    - name: Services
+      fields:
+        - name: services
+          type: text
+          label: Comma-separated list of services to include in the search. (must match Utelly API offerings) (Can include 'Plex')
+          value: "Netflix, Amazon Prime Video, Disney+, Plex"
+    - name: Plex Settings
+      fields:
+        - name: plexUsername
+          type: text
+          label: Username for your Plex account
+          value: ""
+        - name: plexPassword
+          type: password
+          label: Password for your Plex account
+          value: ""
+    - name: CouchPotato
+      fields:
+        - name: couchPotato
+          type: checkbox
+          label: Check this if you have Couchpotato-Downloader-Skill installed and this skill will offer to download videos for you as needed.
+          value: "false"

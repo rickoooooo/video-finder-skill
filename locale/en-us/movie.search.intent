@@ -1,0 +1,5 @@
+where can (i|we|you) (find|watch|stream) {title}
+where can (i|we|you) (find|watch|stream) {title} (starring|featuring|with) {actor}
+where can (i|we|you) (find|watch|stream) the (movie|film|show|series) {title}
+where can (i|we|you) (find|watch|stream) the (movie|film|show|series) {title} (starring|featuring|with) {actor}
+where can (i|we|you) (find|watch|stream) the {actor} (movie|film|show|series) {title}
